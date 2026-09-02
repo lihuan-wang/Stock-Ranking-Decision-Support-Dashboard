@@ -1,7 +1,12 @@
 # Stock-Ranking Decision-Support Dashboard
 
-
 This repository contains the forward stock-ranking decision-support prototype developed for an MSc dissertation on machine-learning-based cross-sectional stock ranking and portfolio decision-making.
+
+## Dashboard Preview
+
+<p align="center">
+  <img src="assets/dashboard.png" alt="Dashboard Preview" width="900">
+</p>
 
 ## Run Locally
 
