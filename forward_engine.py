@@ -43,7 +43,7 @@ warnings.filterwarnings("ignore")
 # Configuration
 # =============================================================================
 
-APP_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = APP_ROOT
 EXPERIMENT_NAME = "decision_support_prototype"
 OUT_DIR = os.path.join(APP_ROOT, "dashboard_outputs")
@@ -1236,7 +1236,7 @@ positions, trades, NAV, and account state.
 ## Daily Command
 
 ```bash
-python strategy_core/forward_engine.py
+python forward_engine.py
 ```
 
 Use `--force-download` if the local Yahoo Finance cache is stale, and use
