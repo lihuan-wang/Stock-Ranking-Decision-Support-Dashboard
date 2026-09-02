@@ -1,6 +1,7 @@
 # Stock-Ranking Decision-Support Dashboard
 
-This repository contains the Streamlit dashboard and the minimum code needed to run the forward stock-ranking decision-support prototype.
+
+This repository contains the forward stock-ranking decision-support prototype developed for an MSc dissertation on machine-learning-based cross-sectional stock ranking and portfolio decision-making.
 
 ## Run Locally
 
@@ -11,7 +12,7 @@ python -m streamlit run app.py --server.fileWatcherType none
 
 On the first run, if local dashboard outputs are missing, the app automatically runs `forward_engine.py` to download market data, train the selected models, generate rankings, update paper-trading accounts, and create the dashboard files.
 
-Generated files are saved in `dashboard_outputs/`. This folder is ignored by Git because it contains local cache files and paper-trading state.
+Generated files are saved in `dashboard_outputs/`, which contains local cache files and paper-trading state.
 
 ## Notes
 
