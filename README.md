@@ -16,7 +16,7 @@ Generated files are saved in `dashboard_outputs/`, which contains local cache fi
 ## Dashboard Preview
 
 <p align="center">
-  <img src="assets/dashboard.png" alt="Dashboard Preview" width="900">
+  <img src="assets/dashboard_full.png" alt="Dashboard Preview" width="900">
 </p>
 
 ## Notes
